@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        td{
+            padding: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+<form>
+<table border="1" cellspacing="0" width="450">
+<thead>
+     <th style="color: red;" bgcolor="Yellow" colspan="3">Registration Form</th>
+    </thead>
+<tbody>
+    <tr>
+        <td align="center" bgcolor="cyan" > <label> Enter Name</label>
+</td>
+<td colspan="2" bgcolor="cyan" >
+    <input type="text"  pattern="[A-Za-z]{3,10}" name="userName">
+</td>
+    </tr>
+<tr>
+     <td align="center" bgcolor="cyan" > <label> Enter password</label>
+</td>
+<td bgcolor="cyan" colspan="2">
+    <input type="password" name="userPassword" required
+    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$">
+</td>
+</tr>
+<tr>
+    <td rowspan="2" bgcolor="cyan" align="center">Enter Address</td>
+    <td rowspan="2" bgcolor="cyan" colspan="2"> 
+        <textarea name="" rows="3" cols="40" ></textarea>
+    </td>
+</tr>
+<tr></tr>
+<tr>
+    <td align="center" bgcolor="cyan" rowspan="3">Select Game</td>
+    <td bgcolor="cyan" rowspan="3" colspan="2">
+        <input type="checkbox" name="Game" value="Ho"> <label>Hockey</label><br>
+        <input type="checkbox" name="Game" value="Fb"> <label>Football</label><br>
+        <input type="checkbox" name="Game" value="Bm"> <label>Badminton</label><br>
+        <input type="checkbox" name="Game" value="cr"> <label>Cricker</label><br>
+        <input type="checkbox" name="Game" value="vb"> <label>volleyball</label>
+    </td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr>
+    <td align="center" bgcolor="cyan" >
+        Gender
+    </td>
+    <td bgcolor="cyan" colspan="2">
+        <input type="radio" name="Gender" value="male"> <Label>Male</Label>
+        <input type="radio" name="Gender" value="female"> <Label>Female</Label>
+    </td>
+</tr>
+<tr>
+    <td bgcolor="cyan" align="center"> Select ur age</td>
+    <td bgcolor="cyan" colspan="2"> <select name="userAge">
+        <option selected disabled>Select</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+
+    </select></td>
+</tr>
+<tr>
+    <td align="center" bgcolor="cyan">Select Photo</td>
+    <td bgcolor="cyan" colspan="2">
+        <input type="file" name="file" accept=".png">
+    </td>
+</tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td bgcolor="cyan" align="center" colspan="3" >
+            <input type="button" value="Click Me ">
+             <input type="reset" value="Reset">
+             <input type="submit" value="Submit">
+        </td>
+        
+    </tr>
+</tfoot>
+</table>
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+margin-left:25% ;
+margin-right: 25%;
+background: #c4ebfa;
+height: 700px;
+width: 600px;
+}
+#hv{
+margin: 1%;
+padding: 2%;
+
+}
+#header{
+    margin-bottom:2% ;
+    width: 100%;
+        color: white;
+text-align: center;
+background-color: #03bfb1;
+}
+#navigation{
+    margin-bottom:1% ;
+    width: 100%;
+    padding: 2px;
+    color: white;
+text-align: center;
+background-color: #33c361;
+}
+#aside{
+    margin-left: 3%;
+    margin-right: 3%;
+    vertical-align: top;
+    width: 40%;
+    padding:19%;
+    text-align: center;
+    height: 55%;
+    color: white;
+background-color: #6edb6e;
+display: inline-block;
+}
+#conSec{
+width: 50%;
+height: 60%;
+display: inline-block;
+}
+#con{
+    margin-bottom: 25px;
+    padding: 25%;
+    color: white;
+    text-align: center;
+    background-color: #0f98c6;
+}
+#sec{
+    padding: 25%;
+    color: white;
+    text-align: center;
+    background-color: #005b92;
+}
+#ff{
+margin:0 1% 1% 1%;
+padding: 2%;
+}
+ #footer{
+    width: 100%;
+    padding: 2px;
+    color: white;
+text-align: center;
+background-color: #03bfb1;
+} 

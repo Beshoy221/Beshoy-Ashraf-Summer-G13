@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off" action="index.html" method="post">
+        <label for="fName">Full Name</label>
+        <input autofocus id="fName" type="text" name="fullName" minlength="3" maxlength="10" required autocomplete="off">
+        <input type="password" 
+        name="password"
+        placeholder="Enter Your password" 
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        <br>
+        <label>Email</label>
+        <input type="email" name="userEmail">
+        <br>
+       <input type="number" placeholder="Enter Your Age" step="2">
+       <br>
+       <label>Gender</label>
+       <input type="radio" name="userGender" value="male">
+       <label>Male</label>
+       <input type="radio" name="userGender" value="female">
+       <label>Female</label>
+       <br>
+       <label>Programing Language</label>
+       <input type="checkbox" name="prLanguage" value="Java"> <label>Java</label>
+       <input type="checkbox" name="prLanguage" value="Js"> <label>JavaScript</label>
+       <input type="checkbox" name="prLanguage" value="Python"> <label>Python</label>
+       <br>
+       <label>Courses</label>
+       <select name="userCourse">
+        <option disabled selected>Select Course</option>
+        <option value="fr">Frontend</option>
+        <option value="be">Backend</option>
+        <option value="nt">Network</option>
+        <option value="bs">Bootstrap</option>
+       </select>
+       <br>
+       <input type="file" multiple name="userFiles">
+    
+       <br>
+<input type="range" min="1" max="10" step="2"><br>
+<input type="date"> <br>
+<input type="month"><br>
+<input type="datetime-local"><br>
+<input type="color">
+
+<br>
+        <button>Submit</button>
+        <input type="reset" value="Clear">
+    </form>
+     <!-- button in form default submit
+             button out form default button-->
+</body>
+</html>

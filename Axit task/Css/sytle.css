@@ -1,0 +1,144 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+color: rgb(250, 246, 246);
+font-family: sans-serif;
+}
+.container{
+width: 80%;
+margin: 0 10%;
+
+}
+nav{
+    padding: 1% 0;
+}
+
+nav h2 {
+    float: left;
+}
+
+.light{
+    background-color: black;
+}
+
+ul{
+    
+    width: 40%;
+    float: right;
+
+}
+.clear{
+    clear: both;
+}
+li{
+    margin: 2%;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.inline{
+    display: inline-block;
+}
+section{
+ height: 100%;
+}
+.hero{
+    background-image: url(../images/observation-urban-building-business-steel.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+.content{
+    float: left;
+margin-top: 10%;    
+width: 37%;
+position: relative;
+z-index: 2;
+}
+h2{
+font-size: 38px;
+}
+span{
+    color: orange;
+    font-weight:lighter;
+}
+
+.content h2{
+    font-size: 46px;
+    font-weight: bolder;
+}
+#bold-p{
+margin: 2% 0 ;
+font-size: 32px;
+font-weight: 400;
+text-transform: uppercase;
+}
+hr{
+    width: 20%;
+    border:  1px solid;
+    margin: 3% 0;
+}
+#regular-p{
+color: rgb(148, 128, 128);
+margin: 2% 0;
+}
+#btn{
+    margin-top: 2%;
+    width: 15%;
+    border: 1px solid white;
+    padding: 8px;
+    background-color: transparent;
+}
+.Fcontent{
+    margin-top: 12%;
+    margin-left: 65%;
+    text-align: center;
+    height: 33%;
+background-color: white ;
+float: right ;
+width: 23%;
+position: absolute;
+z-index: 2;
+}
+#text-h3 {
+    background-color: rgb(192, 179, 179);
+height: fit-content;
+    color: black;
+    padding: 3% 0 ;
+}
+#text-h3 span{
+    font-weight: bold  ;
+}
+form p {
+    margin-top: 2%;
+    padding: 4% 0;
+    height:20%;
+    background-color: orange;
+color: white;
+
+}
+
+
+
+.inp{
+    width: 80%;
+    margin: 5%;
+    border: none;
+    border-bottom:1px solid grey;
+}
+

@@ -1,0 +1,104 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    width: 80%;
+    margin: 0 10%;
+}
+.list{
+    color: white;
+    background-color: black;
+    position: sticky;
+    top: 0 ; 
+    z-index: 1;
+}
+.list h2 {
+    font-size: x-large;
+    margin: 1% 0;
+    width: 50%;
+    float: left;
+}
+
+
+ul{
+    width: 40%;
+    margin-top: 1.5%;
+    list-style: none;
+    float: right;
+}
+li{
+    margin-right: 5%;
+}
+    
+.clear{
+    clear: both;
+}
+.inline-block{
+    display: inline-block;
+}
+.Card{
+    margin: 4% 1% 1% 1%;
+    background-color: white;
+width: 30%;
+box-shadow: 0 0 1 2 white;
+ /* border: 2px solid rgb(236, 7, 7); */
+float: left;
+
+}
+.Card img {
+    width: 100%;
+}
+.card-text h2 {
+    color: purple;
+padding: 1%;
+margin: .5% 1%;
+}
+.card-text p {
+        padding-left: 3%;
+}
+#arrow{
+    scroll-behavior: smooth;
+    padding-top: .7%;
+    background-color: gold;
+    text-align: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed ;
+    right: 5%;
+    bottom: 5%;
+}
+.img-b{
+    position: relative;
+}
+.overlay{
+position: absolute;
+top: 0;
+width: 100%;
+height: 98%;
+background-color:rgba(0, 0, 0, 0.507);
+display: none;
+}
+.card:hover .overlat{
+    display: block;
+}
+.buy-btn{
+position: absolute ;
+left: 2%;
+background-color: white;
+margin: 3% 0 0 2%;
+padding: 1% 3%;
+}
+.buy-btn {
+text-decoration: none;
+
+ color: black;
+}
+.buy-btn:hover{
+    color: red;
+}

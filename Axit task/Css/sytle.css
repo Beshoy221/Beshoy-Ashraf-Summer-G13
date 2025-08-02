@@ -105,6 +105,7 @@ margin: 2% 0;
     background-color: transparent;
 }
 .Fcontent{
+    
     margin-top: 12%;
     margin-left: 65%;
     text-align: center;
@@ -114,7 +115,7 @@ float: right ;
 width: 23%;
 position: absolute;
 z-index: 2;
-}
+}   
 #text-h3 {
     background-color: rgb(192, 179, 179);
 height: fit-content;
@@ -132,8 +133,6 @@ form p {
 color: white;
 
 }
-
-
 
 .inp{
     width: 80%;

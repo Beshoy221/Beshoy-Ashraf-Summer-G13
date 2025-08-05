@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 5%;
+}
+.d-flex{
+    display: flex;
+}
+.w-15{
+    width: 15%;
+}
+.w-25{
+    width: 25%;
+}
+.w-30{
+    width: 30%;
+}
+
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+
+
+.w-70{
+    width: 70%;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.space-even{
+    justify-content: space-evenly;
+}
+.space-bet{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around
+    ;
+}
+.j-center{
+    justify-content: center;
+}
+.align-center{
+    justify-content: center;
+
+}
+.pos-rel{
+    position: relative;
+}
+.padding-t{
+    padding-top: 1%;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.padding-b-1{
+    padding-bottom: 1%;
+}
+
+.hero{
+    color: white;
+    background-image: url(../images/dog.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+    height: 100vh;
+}
+
+.logo{
+    align-items: center;
+    padding: 1% 0;
+}
+.logo h1{
+    margin-left: 1%;
+
+}
+
+.main-bar{
+    background-color: inherit;
+}
+.main-bar ul{
+    list-style: none;
+     align-self: center; 
+}
+.main-bar li {
+    color: lightgray;
+}
+.menu {
+    display: none;
+}
+.main-bar input{
+    margin-top: 1%;
+    border: 1px rgba(255, 255, 255, 0.089) solid;
+    color: black;
+    border-radius: 20px;
+    padding: 0 .7%;
+ 
+}
+.d-text{
+    margin-left: 4%;
+    margin-top: 6%;
+    padding: 5%;
+    
+    background-color: inherit;
+    width: 50%;
+}
+.d-text h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.d-text p {
+ padding: 5% 0;
+}
+#sh-btn{
+    border: solid 1px white;
+    color: white;
+    background-color: inherit;
+border-radius: 20px;
+padding:1% 5%;
+}
+#sh-btn i{
+    margin-left: 3px;
+}
+.sh-se{
+    color: rgb(17, 0, 0);
+    width: 100%;
+}
+.shop-paw{
+margin:2% 0 ;
+
+}
+.shop-paw i{ 
+margin-right: 1%;
+margin-top: .2%;
+}
+
+.bottom-border{
+    border-bottom: 1px solid lightgray;
+}
+.fea-pro{
+    width: 80%;
+    border: 1px solid lightgray ;
+    padding-top: 1%;
+    border-left: none;
+    margin-left: 8%;
+    justify-content: space-between;
+}
+.search{
+    position: relative;
+    margin-left: 22%;
+}
+.search input{
+    margin-top: 1%;
+    padding:2% 0 1.5% 10%; 
+    border-radius: 20px;
+    border: none;
+    background-color: lightgray ;
+}
+.search i {
+    position: absolute;
+    top:30%;
+    left :3%;
+}
+.pro-list{
+    margin-top: 2%;
+}
+.pro-list li {
+margin-right: 2%;
+}
+.pro-list li:hover{
+    color: white;
+    background-color: black;
+    padding:1% 2%;
+    border-radius: 2px;
+    margin-bottom: 1%;
+}
+.pics img{
+    padding-top: 2%;
+    margin-right: 1%;
+    width:calc(100% /3 -2);
+}
+.fea-pro p{
+    padding: 1% 0;
+    margin-left: 90%;
+    
+}
+
+.services-wrapper {
+    width: 80%;
+    border: 1px solid lightgray ;
+    padding: 1%;
+  max-width: 1000px;
+  margin: auto;
+  gap: 15px;
+  margin-top: 1%;
+}
+
+.left-box {
+  width: 66%;
+  gap: 15px;
+}
+
+.left-box .service {
+  width: calc(50% - 7.5px);
+  aspect-ratio: 1 / 1;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+.right-box {
+  width: 34%;
+  aspect-ratio: 1 / 0.96;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+.service img,
+.right-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.service span,
+.right-box span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+.about-us{
+    margin: 1%;
+    margin-left: 5%;
+    width: 80%;
+    border: 1px solid lightgray;
+}
+.about-us p {
+    margin: 6% 1%;
+}
+.about-cats{
+    position: relative;
+
+
+}
+.about-cats #basic-img{
+    width: 100%;
+    margin: 4%;
+    border-radius: 13px;
+}
+#cust-img{
+    position: absolute;
+    width: 30%;
+    top: 73%;  
+    right: 73%;
+    border: 10px solid white ;
+    border-radius: 15px;
+
+}
+.team-card{    
+    width: calc(100% / 4 - 6%);
+    margin-top: 2%;
+    
+}
+.team-card img{
+    width: 100%;
+     aspect-ratio: 1/1;
+}
+.team-card h3,p {
+    margin: 2%;
+}
+.team-card p , .team-card i {
+    color: lightgray;
+}
+
+.team-card i {
+    margin-right: 1%;
+}
+.blog{
+    margin: 2%;
+    margin-left: 5%;
+}
+.blog p {
+    margin: 2%;
+}
+.bold{
+    font-weight: bold;
+}
+.light-gray{
+    color: lightgray;
+}
+.blog-text h3
+{
+    margin:2% 0;
+}
+.blog-img .p-img {
+position: absolute;
+top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.blog input{
+    padding: 1%;
+    color: white;
+background-color: #101828;
+border-radius: 10px;
+}
+.white{
+    color: white;
+}
+.get-touch{
+    background-color: #101828;
+
+}
+.f-dir{
+    flex-direction: column;
+}
+.form{
+    width: 40%;
+    background-color:white ;
+    border-radius: 8px;
+    padding: 2%;
+    margin:2% 0 0 5%;
+}
+.form label {
+    color: black;
+}
+.cust-border{
+    border: 1px solid lightgray;
+    border-radius: 8px ;
+}
+.marg{
+    margin: 2% 0 ;
+}
+
+.f-l-name input {
+padding: 4% 5%;
+}
+.em{
+    padding: 1%;
+}
+.em input{
+padding: 2% 3%;
+
+}
+.ver span {
+    text-decoration: underline;
+}
+.cust-btn{
+padding: 2%;
+color: white;
+background-color: #101828;
+}
+.form-con{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.form-con i{
+    padding-bottom: 2%;
+    color: inherit;
+}
+.cust-p{
+    padding: 1%;
+    color: white;
+    font-weight: lighter;
+}
+.up-footer{
+    background-color: #101828;
+    margin: 2% 0;
+}
+.em-subs{
+    margin-top: 2%;
+}
+.em-subs input{
+    background-color: lightgray;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+.em-subs button{
+     padding: 1% 2%;
+    border-radius: 5px;
+}
+.li-header {
+    color: lightgray;
+    margin-bottom: 6%;
+}
+.sh-list li {
+    margin-bottom: 4%;
+    
+}
+.f-icons i{
+margin-top: 7%;
+margin-right: 3%;
+}
+
+
+

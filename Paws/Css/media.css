@@ -1,0 +1,82 @@
+@media (max-width: 390px) {
+    .container{
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .d-flex{
+    flex-wrap: wrap;
+}
+.hero ul , input{
+    display: none;
+}
+.w-15{
+    width: 100%;
+    margin-top: 2%;
+}
+.w-100{
+    width: 80%;
+}
+.logo{
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.menu{
+    width: 1%;
+    display:block;
+}
+.hero {
+        background-size: 190% 100%;
+}
+.d-text{
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 25%;
+    padding: 3%;
+}
+.d-text p {
+    margin: 5% 0 ;
+}
+.fea-pro{
+    width: 100%;
+}
+.fea-pro i {
+display: none;
+}
+.fea-pro p{
+display: none;
+}
+.shop-paw{
+    width: 100%;
+    
+}
+.pro-list{
+width: 100%;
+}
+.services-wrapper{
+    border: none;
+}
+.left-box{
+    width: 100%;
+}
+.right-box{
+    width: 100%;
+}
+.about-text{
+    width: 100%;
+}
+.about-us{
+        border: none;
+
+}
+.about-cats{
+    display: none;
+}
+.blog-text{
+    width: 100%;
+}
+.blog-img{
+    display: none;
+}
+
+}

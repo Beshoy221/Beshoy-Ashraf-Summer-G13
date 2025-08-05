@@ -123,6 +123,9 @@ float: left;
  text-align: center; 
  display: none;
 }
+.details-pro:hover .overlay{
+    display: block;
+}
 .overlay-details{
     margin-top: 60%;
 }
